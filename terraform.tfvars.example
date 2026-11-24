@@ -1,0 +1,12 @@
+vpc_id = "vpc-REPLACE_WITH_APPROVED_VPC_ID"
+
+public_subnet_ids = [
+  "subnet-REPLACE_WITH_PUBLIC_SUBNET_1",
+  "subnet-REPLACE_WITH_PUBLIC_SUBNET_2"
+]
+
+certificate_arn = "arn:aws:acm:ap-south-1:ACCOUNT_ID:certificate/CERTIFICATE_ID"
+
+target_instance_ids = [
+  "i-REPLACE_WITH_APPROVED_INSTANCE_ID"
+]
